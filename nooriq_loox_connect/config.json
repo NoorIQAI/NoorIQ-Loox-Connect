@@ -1,0 +1,20 @@
+{
+  "name": "Loox Connect",
+  "description": "Loox Connect",
+  "version": "0.5.0",
+  "slug": "nooriq_loox_connect",
+  "arch": ["aarch64"],
+  "image": "nooriqlooxregistry.azurecr.io/nooriq-loox-connect",
+  "startup": "services",
+  "boot": "auto",
+  "init": false,
+  "homeassistant_api": true,
+  "hassio_api": true,
+  "hassio_role": "admin",
+  "options": {
+    "iothub_device_connection_string": ""
+  },
+  "schema": {
+    "iothub_device_connection_string": "password"
+  }
+}
