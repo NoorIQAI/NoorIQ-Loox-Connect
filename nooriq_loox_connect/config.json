@@ -1,7 +1,7 @@
 {
   "name": "Loox Connect",
   "description": "Loox Connect",
-  "version": "0.5.1",
+  "version": "0.5.2",
   "slug": "nooriq_loox_connect",
   "arch": ["aarch64"],
   "image": "nooriqlooxregistry.azurecr.io/nooriq-loox-connect",
